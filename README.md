@@ -1,9 +1,26 @@
 # get-stuff-done
 A basic Flask CRUD app for managing your ToDo list.
 
-Installation
-Use the package manager pip to install foobar.
- 
+## Installation
+To use this app, install:
 
-Activate env
+```bash
+python
+pip3 install virtualenv 
+virtualenv env 
+```
+
+## Activate env
+```bash
  source env/bin/activate  
+```
+ 
+## Run
+```bash
+pip3 install flask flask-sqlalchemy
+```
+
+## Serve App
+```bash
+python3 app.py
+```
